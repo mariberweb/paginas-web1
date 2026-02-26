@@ -12,31 +12,109 @@ html>
 <h1>tabla 2</h1>
 </html>
 ---------------
-<tbody{color:red;{
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla con Colores</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th {
+            background-color: #2E86C1;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #D6EAF8;
+        }
+        tr:nth-child(odd) {
+            background-color: #AED6F1;
+        }
+        tr:hover {
+            background-color: #85C1E9;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Tabla de 10 Datos</h2>
+
 <table>
-<caption>ejemplo de tabla</caption>
-  <tbody
-<tr>
-<td>reino de españa</td>
-<td>madrid</td>
-<td>euro</td>
-</tr>
- <tr> 
-<td>reino de dinamarca</td>
-<td>copenhague</td>
-<td>corona danesa</td>
- </tr> 
-</tbody>
-<tbody>
-<tr>
-  <td>ESTADOS UNIDOS MEXICANOS</td>
-  <td>ciudad de mexico</td>
-  <td>peso</td>
-</tr>
-  <tr>
-  <td>republica argentina</td>  
-    <td>buenos aires</td>
-    <td>peso</td>
-  </tr>
-</tbody>
+    <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Ciudad</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Ana</td>
+        <td>25</td>
+        <td>Madrid</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Carlos</td>
+        <td>30</td>
+        <td>Barcelona</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Lucía</td>
+        <td>22</td>
+        <td>Valencia</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Pedro</td>
+        <td>28</td>
+        <td>Sevilla</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Sofía</td>
+        <td>27</td>
+        <td>Bilbao</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Diego</td>
+        <td>35</td>
+        <td>Zaragoza</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Elena</td>
+        <td>24</td>
+        <td>Málaga</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Javier</td>
+        <td>32</td>
+        <td>Granada</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>María</td>
+        <td>29</td>
+        <td>Toledo</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Andrés</td>
+        <td>31</td>
+        <td>Salamanca</td>
+    </tr>
 </table>
+
+</body>
+</html>
